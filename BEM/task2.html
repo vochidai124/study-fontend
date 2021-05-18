@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
+        <div id="toast">
             <!-- Succes -->
-            <div class="toast">
+            <div class="toast toast__success">
                 <div class="toast__icon">
                     <i class="fas fa-check-circle"></i>
                 </div>
@@ -23,20 +23,20 @@
                 </div>
             </div>
             <!-- Info -->
-            <div class="toast">
+            <div class="toast toast__info">
                 <div class="toast__icon">
                     <i class="fas fa-check-circle"></i>
                 </div>
                 <div class="toast__body">
                     <h3 class="toast__title">Info</h3>
-                    <p class="toast__msg">Limited time offer: Get 10 free Adobe Stock images.ads via Carbon</p>
+                    <p class="toast__msg">Limited time offer</p>
                 </div>
                 <div class="toast__close">
                     <i class="fas fa-times"></i>
                 </div>
             </div>
             <!-- Warning -->
-            <div class="toast">
+            <div class="toast toast__warning">
                 <div class="toast__icon">
                     <i class="fas fa-check-circle"></i>
                 </div>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <!-- Error -->
-            <div class="toast">
+            <div class="toast toast__error">
                 <div class="toast__icon">
                     <i class="fas fa-check-circle"></i>
                 </div>
@@ -61,6 +61,10 @@
                     <i class="fas fa-times"></i>
                 </div>
             </div>
+        </div>
+        <div>
+            <div class="btn btn--success">Show success</div>
+            <div class="btn btn--danger">Show error</div>
         </div>
     </body>
 </html>

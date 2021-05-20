@@ -45,7 +45,7 @@
                         </li>
                     </ul>
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="#" class="header__navbar-item-link">
                                 <i class="header__navbar-icon fas fa-bell"></i>
                                 Thông Báo
@@ -65,21 +65,21 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="header__notify-item">
+                                    <li class="header__notify-item header__notify-item--viewed">
                                         <a href="#" class="header__notify-link">
-                                            <img src="./assets/img/img_notify_2.jpg" alt="img_notify" class="header__notify-img">
+                                            <img src="./assets/img/img_notify_1.jpg" alt="img_notify" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">SẢN PHẨM BÁN CHẠY</span>
-                                                <span class="header__notify-description">7 Ngày Miễn Phí Trả Hàng Chính Hãng 100%</span>
+                                                <span class="header__notify-name">Shopee - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! Shopee là nền tảng giao dịch trực tuyến hàng đầu ở Đông Nam Á, Việt Nam</span>
+                                                <span class="header__notify-description">Bạn có thể tải ứng dụng Shopee cũng như đăng sản phẩm bán hàng một cách nhanh chóng và tiện lợi</span>
                                             </div>
                                         </a>
                                     </li>
                                     <li class="header__notify-item">
                                         <a href="#" class="header__notify-link">
-                                            <img src="./assets/img/img_notify_2.jpg" alt="img_notify" class="header__notify-img">
+                                            <img src="./assets/img/img_notify_3.jpg" alt="img_notify" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">SẢN PHẨM BÁN CHẠY</span>
-                                                <span class="header__notify-description">7 Ngày Miễn Phí Trả Hàng Chính Hãng 100%</span>
+                                                <span class="header__notify-name">Mua hàng trên Shopee luôn là một trải nghiệm ấn tượng</span>
+                                                <span class="header__notify-description">Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shopee.vn là một sự lựa chọn tuyệt vời dành cho bạn. Bản chất của Shopee</span>
                                             </div>
                                         </a>
                                     </li>
@@ -114,6 +114,61 @@
 
         </div>
         <!-- end footer -->
+
+        <!-- modal chung-->
+        <div class="modal">
+            <div class="modal__overlay">
+
+            </div>
+            <div class="modal__body">
+                <!-- Authen form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng Ký</h3>
+                            <span class="auth-form__switch-btn">Đăng Nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại Mật khẩu">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đồng ý với Shop về
+                                <a href="#" class="auth-form__text-link">Điều khoản dịch vụ</a> & 
+                                <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                <span class="auth-form__socials-title">
+                                    Kết nối với Facebook
+                                </span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                                <span class="auth-form__socials-title">
+                                    Kết nối với Google
+                                </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->
     </div>
 </body>
 </html>

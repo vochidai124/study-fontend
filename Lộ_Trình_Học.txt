@@ -1,0 +1,9 @@
+1/ Học HTML & CSS
+2/ Học Javascript căn bản
+3/ Học jQuery
+4/ Học Bootstrap / CSS framework
+5/ Học tool hỗ trợ như SASS, GIT
+6/ Học ES6
+7/ Học JS Framework
+	Học React JS
+	Học Angular
